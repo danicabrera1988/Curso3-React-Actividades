@@ -38,7 +38,7 @@ export class Jobs extends React.Component {
     }
     
     eliminar(id){
-        const mensaje = window.confirm("¿Desea eliminar este puesto de trabajo?")
+        const mensaje = window.confirm("¿Deseas eliminar este puesto de trabajo?")
 
         if(mensaje){
             const nuevaLista = this.state.lista;
